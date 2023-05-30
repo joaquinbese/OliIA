@@ -2,7 +2,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 
 def generar_resumen(texto_largo):
     response = openai.Completion.create(
